@@ -21,17 +21,31 @@ function About() {
           <h3>Experience</h3>
           <div className="timeline">
             <div className="timeline-item">
-              <div className="timeline-date">2021 - Present</div>
+              <div className="timeline-date">2018</div>
               <div className="timeline-content">
-                <h4>Front-End Developer</h4>
-                <p>Company X</p>
+                <h4>Job Title</h4>
+                <p>Company Name</p>
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-date">2019 - 2021</div>
+              <div className="timeline-date">2019-2021</div>
               <div className="timeline-content">
-                <h4>UI/UX Designer</h4>
-                <p>Company Y</p>
+                <h4>Job Title</h4>
+                <p>Company Name</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2021-2022</div>
+              <div className="timeline-content">
+                <h4>Job Title</h4>
+                <p>Company Name</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-date">2022-2023</div>
+              <div className="timeline-content">
+                <h4>Job Title</h4>
+                <p>Company Name</p>
               </div>
             </div>
           </div>
