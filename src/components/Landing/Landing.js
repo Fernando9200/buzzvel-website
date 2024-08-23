@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
+import Typewriter from 'typewriter-effect';
 import './Landing.css';
 
 function Landing() {
@@ -11,8 +12,17 @@ function Landing() {
   return (
     <div className="landing">
       <div className="landing-content">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Web Developer & Designer</p>
+        <h1 className="fade-in">Welcome to My Portfolio</h1>
+        <div className="typewriter">
+          <Typewriter
+            options={{
+              strings: ['Web Developer', 'Designer', 'Problem Solver'],
+              autoStart: true,
+              loop: true,
+              cursor: "|",
+            }}
+          />
+        </div>
       </div>
       <Particles
         id="tsparticles"
