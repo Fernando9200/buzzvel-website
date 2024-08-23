@@ -1,13 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
   }
   
   h1, h2, h3 {
     margin-bottom: 1rem;
+    font-weight: 600;
+    color: #333;
   }
   
   img {
     max-width: 100%;
+    display: block;
   }
+  
+
+  
+  /* Smooth Scroll for Anchor Links */
+  html {
+    scroll-behavior: smooth;
+  }
+  

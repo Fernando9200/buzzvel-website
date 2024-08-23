@@ -6,16 +6,18 @@ function About() {
     <section className="about">
       <h2>About Me</h2>
       <div className="about-content">
-        <div className="about-text">
-          <p>Your introduction and personal information here.</p>
-          <h3>Work Experience</h3>
-          <ul>
-            <li>Job Title 1 - Company Name (Year - Year)</li>
-            <li>Job Title 2 - Company Name (Year - Year)</li>
-          </ul>
-        </div>
         <div className="about-image">
           <img src="/path/to/your/image.jpg" alt="Your Name" />
+        </div>
+        <div className="about-text">
+          <p>Hello! I'm [Your Name], a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
+          <h3>Work Experience</h3>
+          <ul>
+            <li>Front-End Developer - Company X (2021 - Present)</li>
+            <li>UI/UX Designer - Company Y (2019 - 2021)</li>
+          </ul>
+          <h3>Motivation for Joining Buzzvel</h3>
+          <p>I'm excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company’s focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
         </div>
       </div>
     </section>
