@@ -1,0 +1,12 @@
+.portfolio {
+    padding: 4rem 2rem;
+  }
+  
+  .portfolio-item {
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+  }
