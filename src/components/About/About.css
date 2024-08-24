@@ -69,43 +69,6 @@
     margin: 0 auto;
   }
   
-  .timeline-item {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 2rem;
-  }
-  
-  .timeline-item:nth-child(even) .timeline-content {
-    order: 1;
-  }
-  
-  .timeline-item:nth-child(even) .timeline-date {
-    order: 2;
-    text-align: right;
-  }
-  
-  .timeline-item:nth-child(odd) .timeline-content {
-    order: 2;
-  }
-  
-  .timeline-date {
-    flex: 1;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #f8c200;
-    margin-bottom: 0.5rem;
-  }
-  
-  .timeline-content {
-    flex: 2;
-    padding: 1rem 2rem;
-    background: #252525;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    color: #fff;
-  }
-  
   .timeline:before {
     content: '';
     position: absolute;
@@ -117,30 +80,55 @@
     transform: translateX(-50%);
   }
   
-  .timeline-item:nth-child(odd) .timeline-date:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    width: 20px;
-    height: 20px;
-    background: #f8c200;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px #1e1e1e;
+  .timeline-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50%;
+    position: relative;
+    margin-bottom: 2rem;
   }
   
-  .timeline-item:nth-child(even) .timeline-date:before {
-    content: '';
+  .timeline-item:nth-child(even) {
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 50%;
+  }
+  
+  .timeline-content {
+    width: 45%;
+    padding: 1rem 2rem;
+    background: #252525;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  .timeline-date {
     position: absolute;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f8c200;
+    background: #1e1e1e;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  
+  .timeline-item:before {
+    content: '';
+    position: absolute;
     top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 20px;
     height: 20px;
     background: #f8c200;
     border-radius: 50%;
     box-shadow: 0 0 0 4px #1e1e1e;
+    z-index: 1;
   }
   
   .why-buzzvel {

@@ -45,7 +45,8 @@ function About() {
               <div className="timeline-date">2022-2023</div>
               <div className="timeline-content">
                 <h4>Job Title</h4>
-                <p>Company Name</p>
+                <h5>Company Name</h5>
+                <p>Description</p>
               </div>
             </div>
           </div>
@@ -53,7 +54,7 @@ function About() {
         <div className="why-buzzvel">
           <h3>Why Buzzvel</h3>
           <div className="buzzvel-text">
-            <p>I'm excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company’s focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
+            <p>I'm excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company's focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
           </div>
         </div>
       </div>
