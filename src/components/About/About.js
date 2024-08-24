@@ -17,33 +17,33 @@ function About() {
             <p>Hello! I'm [Your Name], a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
           </div>
         </div>
-        <div className="experience-timeline">
+        <div className="experience-chronology">
           <h3>Experience</h3>
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-date">2018</div>
-              <div className="timeline-content">
+          <div className="chronology">
+            <div className="chronology-item">
+              <div className="chronology-date">2018</div>
+              <div className="chronology-content">
                 <h4>Job Title</h4>
                 <p>Company Name</p>
               </div>
             </div>
-            <div className="timeline-item">
-              <div className="timeline-date">2019-2021</div>
-              <div className="timeline-content">
+            <div className="chronology-item">
+              <div className="chronology-date">2019-2021</div>
+              <div className="chronology-content">
                 <h4>Job Title</h4>
                 <p>Company Name</p>
               </div>
             </div>
-            <div className="timeline-item">
-              <div className="timeline-date">2021-2022</div>
-              <div className="timeline-content">
+            <div className="chronology-item">
+              <div className="chronology-date">2021-2022</div>
+              <div className="chronology-content">
                 <h4>Job Title</h4>
                 <p>Company Name</p>
               </div>
             </div>
-            <div className="timeline-item">
-              <div className="timeline-date">2022-2023</div>
-              <div className="timeline-content">
+            <div className="chronology-item">
+              <div className="chronology-date">2022-2023</div>
+              <div className="chronology-content">
                 <h4>Job Title</h4>
                 <h5>Company Name</h5>
                 <p>Description</p>

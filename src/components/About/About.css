@@ -59,18 +59,18 @@
     color: #bdbdbd;
   }
   
-  .experience-timeline {
+  .experience-chronology {
     margin-bottom: 3rem;
   }
   
-  .timeline {
+  .chronology {
     position: relative;
     padding: 2rem 0;
     width: 100%;
     margin: 0 auto;
   }
   
-  .timeline:before {
+  .chronology:before {
     content: '';
     position: absolute;
     top: 0;
@@ -81,7 +81,7 @@
     transform: translateX(-50%);
   }
   
-  .timeline-item {
+  .chronology-item {
     display: flex;
     justify-content: flex-end;
     padding-right: 50%;
@@ -89,13 +89,13 @@
     margin-bottom: 2rem;
   }
   
-  .timeline-item:nth-child(even) {
+  .chronology-item:nth-child(even) {
     justify-content: flex-start;
     padding-right: 0;
     padding-left: 50%;
   }
   
-  .timeline-content {
+  .chronology-content {
     width: 45%;
     padding: 1rem 2rem;
     background: #252525;
@@ -104,7 +104,7 @@
     color: #fff;
   }
   
-  .timeline-date {
+  .chronology-date {
     position: absolute;
     top: 0;
     left: 50%;
@@ -118,7 +118,7 @@
     z-index: 1;
   }
   
-  .timeline-item:before {
+  .chronology-item:before {
     content: '';
     position: absolute;
     top: 0;

@@ -3,24 +3,56 @@ import './Timeline.css';
 
 function Timeline() {
   return (
-    <section className="timeline">
-      <h2>Career Timeline</h2>
-      <div className="timeline-container">
-        <div className="timeline-item">
-          <div className="timeline-content">
-            <h3>2023</h3>
-            <p>Current Position - Company Name</p>
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-content">
-            <h3>2020</h3>
-            <p>Previous Position - Company Name</p>
-          </div>
-        </div>
-        {/* Add more timeline items as needed */}
+    <div className="timeline">
+      <div className="timeline-bar">
+        <div className="year">2011</div>
+        <div className="year">2012</div>
+        <div className="year">2013</div>
+        <div className="year">2014</div>
+        <div className="year">2015</div>
+        <div className="year">2016</div>
+        <div className="year">2017</div>
+        <div className="year">Now</div>
       </div>
-    </section>
+      <div className="timeline-entries">
+        <div className="entry entry-top" style={{ left: '5%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+        <div className="entry entry-bottom" style={{ left: '20%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+        <div className="entry entry-top" style={{ left: '35%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+        <div className="entry entry-bottom" style={{ left: '50%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+        <div className="entry entry-top" style={{ left: '65%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+        <div className="entry entry-bottom" style={{ left: '80%' }}>
+          <div className="entry-content">
+            <h3>Company Name <span>(Designation)</span></h3>
+            <p>Country Name</p>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
