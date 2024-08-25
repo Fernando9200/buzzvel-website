@@ -4,6 +4,7 @@ import Landing from './components/Landing/Landing';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Timeline from './components/Timeline/Timeline';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <section id="about"><About /></section>
       <section id="portfolio"><Portfolio /></section>
       <section id="timeline"><Timeline /></section>
+      <section id="footer"><Footer /></section>
     </div>
   );
 }

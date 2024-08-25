@@ -1,4 +1,9 @@
-.timeline {
+.timeline-container {
+    margin-top: 200px; /* Moves the entire timeline down */
+    margin-bottom: 100px;
+  }
+  
+  .timeline {
     position: relative;
     max-width: 1000px;
     margin: 50px auto;
@@ -31,7 +36,7 @@
   
   .timeline-entries {
     position: relative;
-    height: 400px;
+    height: 100px;
   }
   
   .entry {
@@ -40,18 +45,18 @@
   }
   
   .entry-top {
-    top: -250px; /* Cards above the timeline */
+    top: -190px; /* Adjusted top position */
   }
   
   .entry-bottom {
-    bottom: 200px; /* Cards below the timeline */
+    bottom: -40px; /* Adjusted bottom position */
   }
   
   .entry-content {
     background-color: white;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   }
   
   .entry::after {

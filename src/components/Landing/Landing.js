@@ -37,7 +37,7 @@ function Landing() {
           interactivity: {
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: "push",
               },
               onHover: {
@@ -51,7 +51,7 @@ function Landing() {
                 quantity: 4,
               },
               repulse: {
-                distance: 200,
+                distance: 175,
                 duration: 0.4,
               },
             },
@@ -85,7 +85,7 @@ function Landing() {
               value: 80,
             },
             opacity: {
-              value: 0.8,
+              value: 0.5,
             },
             shape: {
               type: "circle",
