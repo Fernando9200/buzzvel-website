@@ -12,11 +12,11 @@ function Landing() {
   return (
     <div className="landing">
       <div className="landing-content">
-        <h1 className="fade-in">Welcome to My Portfolio</h1>
+        <h1 className="fade-in">I'm Fernando Carretto</h1>
         <div className="typewriter">
           <Typewriter
             options={{
-              strings: ['Web Developer', 'Designer', 'Problem Solver'],
+              strings: ['Software Developer', 'Creative Problem Solver', 'Technology Enthusiast'],
               autoStart: true,
               loop: true,
               cursor: "|",

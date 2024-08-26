@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import perfilImage from '../../assets/images/perfil.jpg';
 
 function About() {
   return (
@@ -11,14 +12,14 @@ function About() {
         </div>
         <div className="about-body">
           <div className="about-image">
-            <img src="/path/to/your/image.jpg" alt="Your Name" />
+            <img src={perfilImage} alt="Fernando" />
           </div>
           <div className="about-text">
-            <p>Hello! I'm [Your Name], a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
+            <p>Hello! I'm Fernando, a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
           </div>
         </div>
         <div className="experience-chronology">
-          <h3>Experience</h3>
+          <h3 className="experience-title">Experience</h3>
           <div className="chronology">
             <div className="chronology-item">
               <div className="chronology-date">2018</div>

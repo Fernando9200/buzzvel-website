@@ -33,8 +33,21 @@
   }
   
   .fade-in {
-    opacity: 0;
+    opacity: 0.5;
+    color: orange;
+    transform: translateY(20px); /* Optional: Adds a slight upward motion */
     animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Matches the initial state */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Ends at the original position */
+    }
   }
   
   .typewriter {

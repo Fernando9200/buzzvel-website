@@ -62,6 +62,10 @@
   .experience-chronology {
     margin-bottom: 3rem;
   }
+
+  .experience-title {
+    opacity: 2 !important
+  }
   
   .chronology {
     position: relative;

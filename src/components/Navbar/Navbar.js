@@ -5,7 +5,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Your Logo</div>
+      <div className="navbar-logo"></div>
       <ul className="navbar-links">
         <li><Link to="landing" smooth={true} duration={500}>Home</Link></li>
         <li><Link to="about" smooth={true} duration={500}>About</Link></li>
