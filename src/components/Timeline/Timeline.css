@@ -1,6 +1,6 @@
 .timeline-container {
-    margin-top: 200px; /* Moves the entire timeline down */
-    margin-bottom: 100px;
+    margin-top: 300px; /* Moves the entire timeline down */
+    margin-bottom: 180px;
   }
   
   .timeline {
@@ -37,6 +37,7 @@
   .timeline-entries {
     position: relative;
     height: 100px;
+    width: 1500px;
   }
   
   .entry {
@@ -44,17 +45,25 @@
     width: 18%;
   }
   
-  .entry-top {
-    top: -190px; /* Adjusted top position */
+  #entry-top-year1 {
+    top: -250px; /* Adjusted top position */
   }
   
-  .entry-bottom {
-    bottom: -40px; /* Adjusted bottom position */
+  #entry-bottom-year2 {
+    bottom: -120px; /* Adjusted bottom position */
+  }
+
+  #entry-top-year3 {
+    top: -320px; /* Adjusted top position */
+  }
+
+  #entry-bottom-year4 {
+    bottom: -150px; /* Adjusted bottom position */
   }
   
   .entry-content {
     background-color: white;
-    padding: 15px;
+    padding: 5px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   }

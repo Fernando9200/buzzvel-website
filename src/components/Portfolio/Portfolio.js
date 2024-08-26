@@ -27,24 +27,32 @@ function Portfolio() {
       <div className="portfolio-slider">
         <Slider {...settings}>
           <div className="portfolio-item">
-            <img src={traquinices} alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2, highlighting key features and technologies used.</p>
+            <a href="https://buzzvel.com/portfolio/traquinices" target="_blank" rel="noreferrer">
+            <img src={traquinices} alt="Traquinices" />
+            </a>
+            <h3>Traquinices</h3>
+            <p>Traquinices is a company that specializes in the distribution of premium Childcare products.</p>
           </div>
           <div className="portfolio-item">
-            <img src={dbs} alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2, highlighting key features and technologies used.</p>
+            <a href="https://buzzvel.com/portfolio/dbs" target="_blank" rel="noreferrer">
+            <img src={dbs} alt="DBS" />
+            </a>
+            <h3>DBS</h3>
+            <p>This platform and APP allows primary users to track medical tests.</p>
           </div>
           <div className="portfolio-item">
-            <img src={misscan} alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2, highlighting key features and technologies used.</p>
+            <a href="https://buzzvel.com/portfolio/miss-can" target="_blank" rel="noreferrer">
+            <img src={misscan} alt="Miss Can" />
+            </a>
+            <h3>Miss Can</h3>
+            <p>Canned food produced in Portugal, with Portuguese fish and artisanal.</p>
           </div>
           <div className="portfolio-item">
-            <img src={thinkferidas} alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2, highlighting key features and technologies used.</p>
+            <a href="https://buzzvel.com/portfolio/thinkferidas" target="_blank" rel="noreferrer">
+            <img src={thinkferidas} alt="ThinkFeridas" />
+            </a>
+            <h3>ThinkFeridas</h3>
+            <p>This is an application to help health professionals for treating complex wounds.</p>
           </div>
         </Slider>
       </div>

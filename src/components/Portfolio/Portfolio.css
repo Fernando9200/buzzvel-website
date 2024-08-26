@@ -4,6 +4,7 @@
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    height: 700px;
   }
   
   .portfolio h2 {
@@ -92,7 +93,7 @@
   .portfolio-item h3 {
     font-size: 1rem;
     color: #f8c200;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
   }
   
   .portfolio-item p {

@@ -64,7 +64,9 @@
   }
 
   .experience-title {
-    opacity: 2 !important
+    opacity: 2 !important;
+    color: #f8c200;
+    margin-bottom: 1.5rem;
   }
   
   .chronology {
@@ -80,7 +82,7 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    width: 4px;
+    width: 3px;
     background: #f8c200;
     transform: translateX(-50%);
   }
@@ -101,7 +103,7 @@
   
   .chronology-content {
     width: 45%;
-    padding: 1rem 2rem;
+    padding: 1.2rem 2rem;
     background: #252525;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -110,10 +112,9 @@
   
   .chronology-date {
     position: absolute;
-    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #f8c200;
     background: #1e1e1e;
@@ -128,12 +129,32 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     background: #f8c200;
     border-radius: 50%;
     box-shadow: 0 0 0 4px #1e1e1e;
     z-index: 1;
+  }
+  
+  .chronology-content h4 {
+    color: #f8c200;
+    margin-bottom: 0.5rem;
+  }
+
+  .chronology-content p {
+    color: #e0e0e0;
+  }
+
+  .experience-link {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .experience-link:hover {
+    color: #64a6f3;
+    text-decoration: underline;
   }
   
   .why-buzzvel {
@@ -152,4 +173,3 @@
   .buzzvel-text:hover {
     transform: translateX(10px);
   }
-  
