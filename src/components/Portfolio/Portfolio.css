@@ -1,10 +1,9 @@
 .portfolio {
-    padding: 0.8rem 0.5rem;
+    padding: 1rem 0.5rem;
     background-color: #505050;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    height: 700px;
   }
   
   .portfolio h2 {
@@ -100,5 +99,79 @@
     font-size: 0.8rem;
     color: #bdbdbd;
     line-height: 1.3;
+  }
+
+  /* Apply height only on desktop devices */
+    @media (min-width: 1024px) {
+        .portfolio {
+        height: 700px;
+        }
+    }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .portfolio h2 {
+      font-size: 1.2rem;
+    }
+  
+    .portfolio-slider {
+      max-width: 100%;
+    }
+  
+    .slick-prev, .slick-next {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .slick-prev {
+      left: -25px;
+    }
+  
+    .slick-next {
+      right: -25px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+      font-size: 14px;
+    }
+  
+    .portfolio-item h3 {
+      font-size: 0.9rem;
+    }
+  
+    .portfolio-item p {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .portfolio h2 {
+      font-size: 1rem;
+    }
+  
+    .slick-prev, .slick-next {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .slick-prev {
+      left: -20px;
+    }
+  
+    .slick-next {
+      right: -20px;
+    }
+  
+    .slick-prev:before, .slick-next:before {
+      font-size: 12px;
+    }
+  
+    .portfolio-item h3 {
+      font-size: 0.8rem;
+    }
+  
+    .portfolio-item p {
+      font-size: 0.7rem;
+    }
   }
   
