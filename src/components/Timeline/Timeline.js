@@ -4,6 +4,7 @@ import './Timeline.css';
 function Timeline() {
   return (
     <div className="timeline-container">
+      <h2>Projected Career Timeline at Buzzvel</h2>
       <div className="timeline">
         <div className="timeline-bar">
           <div className="year">2024</div>
