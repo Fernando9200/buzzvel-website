@@ -90,7 +90,7 @@ function About() {
               I currently work as a Frontend Developer at{" "}
               <a
                 className="experience-link"
-                href="https://www.linkedin.com/company/hahn-softwareentwicklung/mycompany/"
+                href="https://www.linkedin.com/company/hahn-softwareentwicklung/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -106,7 +106,7 @@ function About() {
           </div>
         </div>
         <div className="why-buzzvel">
-          <h3>Why Buzzvel</h3>
+          <h3 className="why-buzzvel-title">Why Buzzvel</h3>
           <div className="buzzvel-text">
             <p>I'm excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company's focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
           </div>

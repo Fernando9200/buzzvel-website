@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import Particles from "react-particles";
+import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import Typewriter from 'typewriter-effect';
 import './Landing.css';

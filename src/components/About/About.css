@@ -161,6 +161,10 @@
   .why-buzzvel {
     margin-bottom: 3rem;
   }
+
+  .why-buzzvel-title {
+    color: #f8c200;
+  }
   
   .buzzvel-text {
     background: rgba(255, 255, 255, 0.1);
