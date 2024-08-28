@@ -10,6 +10,8 @@
         text-transform: uppercase;
         letter-spacing: 1.2px;
         margin-bottom: 18rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
       }
   
     .timeline {
@@ -47,6 +49,7 @@
       position: relative;
       height: 6.25rem;
       width: 93.75rem;
+      font-family: Arial, Helvetica, sans-serif;
     }
   
     .entry {
@@ -55,19 +58,19 @@
     }
   
     #entry-top-year1 {
-      top: -15.625rem;
+      top: -13rem;
     }
   
     #entry-bottom-year2 {
-      bottom: -7.5rem;
+      bottom: -4.5rem;
     }
   
     #entry-top-year3 {
-      top: -20rem;
+      top: -16.5rem;
     }
   
     #entry-bottom-year4 {
-      bottom: -9.375rem;
+      bottom: -5.75rem;
     }
   
     .entry-content {

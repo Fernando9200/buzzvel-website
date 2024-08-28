@@ -1,4 +1,3 @@
-import React from 'react';
 import './About.css';
 import perfilImage from '../../assets/images/perfil.jpg';
 
@@ -15,7 +14,7 @@ function About() {
             <img src={perfilImage} alt="Fernando" />
           </div>
           <div className="about-text">
-            <p>Hello! I'm Fernando, a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
+            <p>Hello! I&apos;m Fernando, a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
           </div>
         </div>
         <div className="experience-chronology">
@@ -84,7 +83,7 @@ function About() {
             <div className="chronology-item">
               <div className="chronology-date">2022-Now</div>
               <div className="chronology-content">
-                <h4>Job Title</h4>
+                <h4>Frontend Developer</h4>
                 <p
             >
               I currently work as a Frontend Developer at{" "}
@@ -108,7 +107,7 @@ function About() {
         <div className="why-buzzvel">
           <h3 className="why-buzzvel-title">Why Buzzvel</h3>
           <div className="buzzvel-text">
-            <p>I'm excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company's focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
+            <p>I&apos;m excited about the opportunity at Buzzvel because it aligns with my passion for developing innovative digital solutions that make an impact. The company&apos;s focus on creativity, user-centric design, and cutting-edge technology resonates with my own professional values.</p>
           </div>
         </div>
       </div>

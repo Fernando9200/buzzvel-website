@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import Typewriter from 'typewriter-effect';
@@ -97,7 +97,7 @@ function Landing() {
   return (
     <div className="landing">
       <div className="landing-content">
-        <h1 className="fade-in">I'm Fernando Carretto</h1>
+        <h1 className="fade-in">I&apos;m Fernando Carretto</h1>
         <div className="typewriter">
           <Typewriter
             options={{
