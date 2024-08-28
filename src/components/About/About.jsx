@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="about-body">
           <div className="about-image">
-            <img src={perfilImage} alt="Fernando" />
+            <img src={perfilImage} alt="Fernando Carretto" />
           </div>
           <div className="about-text">
             <p>Hello! I&apos;m Fernando, a passionate front-end developer with a love for creating clean, efficient, and visually appealing user interfaces.</p>
