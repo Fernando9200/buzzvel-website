@@ -123,6 +123,7 @@
         margin-bottom: 2rem; /* Reduced margin for mobile */
         color: #f8c200;
         text-transform: uppercase;
+        text-align: center;
       }
   
     .timeline {
