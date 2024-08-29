@@ -6,7 +6,6 @@ import Timeline from './components/Timeline/Timeline';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import { Helmet } from "react-helmet";
-import ogImage from './assets/images/og-image.jpg'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Fernando Carretto - Buzzvel Application" />
         <meta property="og:description" content="Showcasing Fernando Carretto's experience and future goals with Buzzvel." />
-        <meta property="og:image" content={ogImage} />
+        <meta property="og:image" content="/images/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://fernando-carretto-buzzvel.vercel.app/" />
@@ -29,7 +28,7 @@ function App() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fernando Carretto - Buzzvel Application" />
         <meta name="twitter:description" content="Fernando Carretto's professional journey and aspirations with Buzzvel." />
-        <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image" content="/assets/images/og-image.jpg" />
 
         {/* Robots */}
         <meta name="robots" content="index, follow" />
