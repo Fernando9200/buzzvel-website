@@ -21,6 +21,8 @@ function App() {
         <meta property="og:title" content="Fernando Carretto - Buzzvel Application" />
         <meta property="og:description" content="Showcasing Fernando Carretto's experience and future goals with Buzzvel." />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://fernando-carretto-buzzvel.vercel.app/" />
 
         {/* Twitter */}
