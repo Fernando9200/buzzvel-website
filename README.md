@@ -2,7 +2,9 @@
 
 This project is a responsive and animated microsite built with React.js and CSS, designed to demonstrate my front-end development skills of Fernando Carretto. The site is designed to be fully responsive and includes various animations to enhance the user experience. The microsite showcases my experience, motivations, and projected career timeline. It also includes E2E tests to ensure the application's responsiveness and functionality across both desktop and mobile devices.
 
-![landing-page](https://github.com/user-attachments/assets/40072c59-2b0d-421c-8f20-fa264b07739c)
+<div>
+  <img src="https://github.com/user-attachments/assets/40072c59-2b0d-421c-8f20-fa264b07739c" alt="about" style="display: block; margin: 20px auto;" width="900" />
+</div>
 
 
 ## Features
@@ -24,6 +26,26 @@ This project is a responsive and animated microsite built with React.js and CSS,
 - **Cypress:** For end-to-end testing.
 
 ## Screenshots
+
+<div>
+  <img src="https://github.com/user-attachments/assets/3b122b89-9966-4e3a-9df2-2365894eee0f" alt="about" style="display: block; margin: 20px auto;" width="900" />
+</div>
+
+<br>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/5f5126b2-1e9f-457c-9828-77661e23eaf5" alt="buzzvel-projects" style="display: block; margin: 20px auto;" width="900" />
+</div>
+
+<br>
+
+<div>
+  <img src="https://github.com/user-attachments/assets/5f29d058-d2eb-412a-b803-c37949750103" alt="projected-timeline" style="display: block; margin: 20px auto;" width="900" />
+</div>
+
+## Video Demonstration
+
+https://github.com/user-attachments/assets/ed5ce24f-afe9-455e-8cc4-9e481c33e28a
 
 ## Installation and Setup
 
@@ -52,12 +74,6 @@ To run this project locally, follow these steps:
    ```
    The application will be available at `http://localhost:5173`.
 
-## SEO and Social Media Integration
-The application includes SEO optimizations and social media integration using `react-helmet`. Meta tags for Open Graph, Twitter, and other SEO-related properties are included.
-
-## End-to-End Testing
-The project includes comprehensive end-to-end (E2E) tests using Cypress. The tests ensure that all key functionalities of the application work correctly on both desktop and mobile devices.
-
 ## To run the Cypress tests locally:
 
 1. **Install Cypress:**
@@ -70,3 +86,5 @@ The project includes comprehensive end-to-end (E2E) tests using Cypress. The tes
    ```bash
    npx cypress run
    ```
+## Contact
+If you have any questions, need assistance, or want to discuss anything related to this project, feel free to reach out to me at `fernando91.sosa@hotmail.com`.
