@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is a responsive and animated microsite built with React.js and CSS, designed to demonstrate my front-end development skills of Fernando Carretto. The site is designed to be fully responsive and includes various animations to enhance the user experience. The microsite showcases my experience, motivations, and projected career timeline. It also includes E2E tests to ensure the application's responsiveness and functionality across both desktop and mobile devices.
+This project is a responsive and animated microsite built with React.js and CSS, designed to demonstrate my front-end development skills. The site is designed to be fully responsive and includes various animations to enhance the user experience. The microsite showcases my experience, motivations, and projected career timeline. It also includes E2E tests to ensure the application's responsiveness and functionality across both desktop and mobile devices.
 
 <div>
   <img src="https://github.com/user-attachments/assets/40072c59-2b0d-421c-8f20-fa264b07739c" alt="about" style="display: block; margin: 20px auto;" width="900" />
